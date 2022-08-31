@@ -5,7 +5,7 @@ public class Acess_Modifier_Parent {
 	public void public_Method() {
 		System.out.println("Access any where");
 	}
-	protected void protected_Method() {
+	protected void protected_Method() {  // protected access modifier achieved in another package Switch_case_prb
 		System.out.println("only access within the package with relationship ");
 	}
 	 void default_Method() {
