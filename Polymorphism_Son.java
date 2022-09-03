@@ -5,9 +5,11 @@ public class Polymorphism_Son extends Polymorphism_Father   {
 			String s="hello";
 		Polymorphism_Father obj1 = new Polymorphism_Father ();
 		obj1.Ambition();
+		
 		 Polymorphism_Son obj = new  Polymorphism_Son();
 		obj.Ambition(); 
 		obj.String();
+		obj.Ambition();
 		
 		
 
@@ -15,8 +17,9 @@ public class Polymorphism_Son extends Polymorphism_Father   {
 		private void String() {
 			
 		}
-		public  void Ambition() {
+		public  int  Ambition() {
 			System.out.println("Developer");
+			return 0;
 		}
 //		public  void log_in_2(String Gmail) {
 //			System.out.println("WELCOME u login with gmail");

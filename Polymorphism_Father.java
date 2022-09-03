@@ -8,10 +8,11 @@ package My_Basic_programs_OOPS;
 //	 }
 	int bank_balance = 10000 ;
 	
-	public  void Ambition() {
+	public  int Ambition() {
 		//bank_balance = 5;
 		System.out.println(bank_balance);
 		System.out.println("Teacher");
+		return 0;
 	}
 	
 	
