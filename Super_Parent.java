@@ -4,7 +4,7 @@ public class Super_Parent {
 	
 	String color ="white";
 	
-	void eating() {
+	 void eating() {
 		System.out.println("eating");
 	}
 	public void run() {

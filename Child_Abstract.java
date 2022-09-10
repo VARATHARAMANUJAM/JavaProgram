@@ -8,6 +8,7 @@ public class Child_Abstract extends Parent_Abstracts {
 	public static void main(String[] args) {
 		Child_Abstract obj = new Child_Abstract();
 		//obj.
+		Series_6();
 		 Scanner sc = new Scanner (System.in);
 		 //obj.LCM_Method_1();
 		 
