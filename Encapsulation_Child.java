@@ -10,7 +10,6 @@ public class Encapsulation_Child {
 	obj.setName("suriya");
 	System.out.println(	" ---"+obj.getName());
 	System.out.println(	" ---"+obj.getRoll_number());
-	
 	}
 
 }
