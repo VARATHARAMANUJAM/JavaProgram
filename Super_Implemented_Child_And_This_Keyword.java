@@ -6,11 +6,15 @@ public class Super_Implemented_Child_And_This_Keyword extends Super_Parent {
 		Super_Implemented_Child_And_This_Keyword obj = new Super_Implemented_Child_And_This_Keyword();
        // obj.run();
         //obj.color();
-		obj.eating();
-        System.out.println(obj.color);
+		//obj.eating();
+        //System.out.println(obj.color);
         
 	}
-
+	Super_Implemented_Child_And_This_Keyword(){
+		super(1,'s');
+		
+		System.out.println("child constructor");
+	}
 	
 	String color ="black";
 	int eat = 5;
